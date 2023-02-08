@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text img{
+    width: 20%;
+}
+.text h1#txt{
+    color: black;
+    background-color: pink;
+    width: 50%;
+    padding: 10px;
+}
+.button{
+    padding: 10px;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button#nobtn{
+    background-color: red;
+    color: aliceblue;
+    position: absolute;
+}
+
+button#yesbtn{
+    background-color: aquamarine;
+    color: black;
+}
+
+@media(max-width:1000px){
+    .text img{
+        width: 50%;
+    }
+    .text h1#txt{
+        width: 90%;
+    }
+}
