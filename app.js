@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded',()=>{
     });
 
     yesbutton.addEventListener('click',() => {
-        document.getElementById('txt').innerHTML = "I love you too my sweetheart!";
+        document.getElementById('txt').innerHTML = "Ohh..I knew it.I love you too my sweetheart!";
         document.getElementById('txt').style.display = 'block';
     })
 
