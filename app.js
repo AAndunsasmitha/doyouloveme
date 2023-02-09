@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded',()=>{
 
     yesbutton.addEventListener('click',() => {
         const emoji = "<h1>🤞</h1>";
-        document.getElementById('txt').innerHTML = "Ohh..I knew it. I love you too!🤞";
+        document.getElementById('txt').innerHTML = "Ohh..I knew it. I love you too!😌";
         document.getElementById('txt').style.display = 'block';
     });
 
