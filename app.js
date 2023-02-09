@@ -1,5 +1,5 @@
 const buttonHeight = 30;
-const buttonWidth = 100;
+const buttonWidth = 150;
 
 const maxHeight = window.innerHeight - buttonHeight;
 const maxWidth = window.innerWidth - buttonWidth;
